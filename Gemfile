@@ -24,6 +24,9 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'spork'
+  gem 'guard-spork'
+  gem 'guard-rspec'
+  gem 'growl' # Mac OS 10.7 まで
 end
 
 # To use ActiveModel has_secure_password
